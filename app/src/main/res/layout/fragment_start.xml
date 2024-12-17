@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.loveappmvp.view.fragments.StartFragment">
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="50dp"
+        android:layout_marginBottom="70dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/btn_start"
+        android:textColor="@color/white"
+        android:text="Get Started"
+        android:textSize="24sp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#6D64FF"/>
+
+</FrameLayout>
